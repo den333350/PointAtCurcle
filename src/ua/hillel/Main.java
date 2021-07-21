@@ -12,9 +12,9 @@ public class Main {
         System.out.println("Создайте окружность");
         System.out.print("Введите X центра: ");
         x = s.nextInt();
-        System.out.print("\nВведите Y центра: ");
+        System.out.print("Введите Y центра: ");
         y = s.nextInt();
-        System.out.print("\nВведите радиус: ");
+        System.out.print("Введите радиус: ");
         radius = s.nextInt();
         Circle circle = new Circle(x,y,radius);
 
@@ -24,7 +24,7 @@ public class Main {
             if(s.nextInt() == 1){
                 System.out.print("Введите X точки: ");
                 x = s.nextInt();
-                System.out.print("\nВведите Y точки: ");
+                System.out.print("Введите Y точки: ");
                 y = s.nextInt();
                 Point point = new Point(x,y);
                 list.add(point);
